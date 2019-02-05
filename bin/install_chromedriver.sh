@@ -10,6 +10,7 @@ curl --silent \
      --output /tmp/chromedriver_linux64.zip \
      https://chromedriver.storage.googleapis.com/2.38/chromedriver_linux64.zip
 
+echo "$PATH"
 unzip /tmp/chromedriver_linux64.zip chromedriver -d ~/.local/bin
 
 rm /tmp/chromedriver_linux64.zip
